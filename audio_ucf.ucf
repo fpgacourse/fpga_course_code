@@ -1,0 +1,14 @@
+# UCF file originally downloaded from
+# http://numato.com/downloads/dl/file/id/6/product/76/user_constraints_file.ucf
+
+CONFIG VCCAUX = "3.3" ;
+
+
+NET "clk" LOC = P129 | IOSTANDARD = LVTTL;
+
+############################################################################
+# Audio
+############################################################################
+
+    NET "Audio(0)"            LOC = P88  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "Audio(1)"            LOC = P87  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;	
