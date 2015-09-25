@@ -1,0 +1,43 @@
+    
+###################################################################################################
+#                                       LED
+###################################################################################################
+#
+#    NET "LED[0]"             LOC = P46   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "LED[1]"             LOC = P47   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "LED[2]"             LOC = P48   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "led"                LOC = P49   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "LED[4]"             LOC = P50   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "led1"               LOC = P51   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "led1"               LOC = P54   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "LED[7]"             LOC = P55   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#
+
+#
+###################################################################################################
+#                                   Switches/Buttons
+###################################################################################################
+#
+#    NET "Switch[0]"          LOC = P80   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "but"                LOC = P79   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "but1"               LOC = P78   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "Switch[3]"          LOC = P77   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "butext"             LOC = P76   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "butext1"            LOC = P75   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#
+###################################################################################################
+#                                       GPIO
+###################################################################################################
+#    
+###################################################################################################
+# HEADER P1
+###################################################################################################
+     NET "led1"             LOC = P31   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+     NET "ledext1"            LOC = P32   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[2]"           LOC = P28   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[3]"           LOC = P30   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[4]"           LOC = P27   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[5]"           LOC = P29   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[6]"           LOC = P24   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#    NET "IO_P1[7]"           LOC = P25   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
