@@ -1,0 +1,26 @@
+CONFIG VCCAUX = "3.3" ;
+
+NET "clk" LOC = P129 | IOSTANDARD = LVTTL;
+
+# HEADER P6
+  
+    NET "data[0]"       LOC = P19  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[1]"       LOC = P21  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[2]"       LOC = P18  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[3]"       LOC = P20  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[4]"       LOC = P15  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[5]"       LOC = P16  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[6]"       LOC = P12  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "data[7]"       LOC = P13  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+
+# HEADER P2
+
+     NET "lcd_rs"       LOC = P10  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+     NET "lcd_rw"       LOC = P11  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+	  NET "lcd_e"        LOC = P7   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    #NET "gpio_P2[19]"       LOC = P8   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    #NET "gpio_P2[20]"       LOC = P3   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    #NET "gpio_P2[21]"       LOC = P5   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    #NET "gpio_P2[22]"       LOC = P4   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    #NET "gpio_P2[23]"       LOC = P6   | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+
