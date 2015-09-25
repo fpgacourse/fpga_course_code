@@ -1,0 +1,35 @@
+#**************************************************************************************************************************************************#
+#                                            UCF for ElbertV2 Development Board                                                                    #
+#**************************************************************************************************************************************************#
+CONFIG VCCAUX = "3.3" ;
+ 
+ # Clock 12 MHz
+  NET "clk32M" LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 12MHz;
+
+
+    NET "sw_enable"       LOC = P70   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "sw_speed"       LOC = P69   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "sw_dir"       LOC = P68   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#   NET "sw_enable"       LOC = P64   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#	  NET "DPSwitch[4]"       LOC = P63   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#   NET "DPSwitch[5]"       LOC = P60   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12; #   NET "sw_speed"       LOC = P59   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#   NET "DPSwitch[7]"       LOC = P58   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+#
+
+############################################################################
+# HEADER P1
+############################################################################
+
+		    	#  phase_a 
+          #  phase_b  
+          #  phase_c 
+          #  phase_d 
+			
+    NET "phase_a"        LOC = P31  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "phase_b"        LOC = P32  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "phase_c"        LOC = P28  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    NET "phase_d"        LOC = P30  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+  # NET "IO_P1[4]"        LOC = P27  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+  # NET "IO_P1[5]"        LOC = P29  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+  # NET "IO_P1[6]"        LOC = P24  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+  # NET "IO_P1[7]"        LOC = P25  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
