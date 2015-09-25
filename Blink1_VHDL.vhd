@@ -5,8 +5,7 @@ use IEEE.numeric_std.all;
 
 entity blink1 is
     Port ( clock : in  STD_LOGIC;
-           led : out  STD_LOGIC;
-			  led1 : out  STD_LOGIC);
+           led : out  STD_LOGIC);
 end blink1;
 
 architecture Behavioral of blink1 is
@@ -36,7 +35,6 @@ process(clock)
 		end process;
 		
 		led <= blink;
-		led1 <= not blink;
 
 
 end Behavioral;
