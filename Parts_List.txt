@@ -1,0 +1,43 @@
+Prerequisites for class
+
+https://www.udemy.com/inexpensive-fpga-development-with-the-elbert-v2/learn/
+
+Video: 
+
+
+Numato Elbert V2 board
+http://numato.com/elbert-v2-spartan-3a-fpga-development-board.html
+Price : $29.95
+
+------------------------------------------------------------------
+LEDS - 5 cents each
+Breadboard -- $2
+DuPont Jumper Wires male-to-male, male-to-female, and female-to-female
+$1 for 20 of each type
+
+
+Common annode 7-segment display LED
+https://www.sparkfun.com/products/8546
+Price .95 cents
+
+
+Stepper Motor
+28BYJ-48 Valve Gear Stepper Motor DC 5V 4 Phase Step Motor
+http://www.ebay.com/itm/28BYJ-48-Valve-Gear-Stepper-Motor-DC-5V-4-Phase-Step-Motor-Reduction-For-Arduino-/181013753291?hash=item2a2542adcb
+Price: $1.56
+
+Stepper Motor Driver Board 
+Blue PCB Board ULN2003 Driver Module 
+http://www.ebay.com/itm/1x-Blue-PCB-Board-ULN2003-Driver-Module-Stepper-Motor-Driver-Board-Chip-NEW-OY-/171917107172?hash=item28070edfe4
+Price .95 cents
+
+
+servo motor
+SG90 servo motor
+http://www.ebay.com/itm/TowerPro-SG90-9G-micro-small-servo-motor-Robot-Helicopter-Airplane-controls-/271854214059?hash=item3f4bc61bab
+Price: $1.89
+
+HD44780 LCD
+Display Character LCD Module 16x2 HD44780 Controller Green Backlight
+http://www.ebay.com/itm/1602-Display-Character-LCD-Module-16x2-HD44780-Controller-Yellow-Green-Backlight-/140896148934?hash=item20ce109dc6
+Price:  $1.83
