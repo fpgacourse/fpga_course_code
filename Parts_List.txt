@@ -1,4 +1,4 @@
-Prerequisites for class
+Prerequisites for class:
 
 https://www.udemy.com/inexpensive-fpga-development-with-the-elbert-v2/learn/
 
