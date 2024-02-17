@@ -20,7 +20,7 @@ assign Enable2 = 1;  //turns 7-seg two off, active low
 assign Enable3 = 1;  //turns 7-seg three off, active low
 
 always @(posedge clk) cnt <= cnt + 1;//cnt+24'h1;
-wire cntovf = &cnt;                  //"redeuction" - bitwise and cntovf activated on 24 bit flip
+wire cntovf = &cnt;                  //"redeuction" - bitwise and cntovf activated on 24 bit flip.
 
 //BCD is a counter that counts from 0 to 9
 reg [3:0] BCD;
