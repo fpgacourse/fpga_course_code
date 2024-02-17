@@ -14,5 +14,5 @@ module buttons1(
 	 assign ledext = ~butext;
 	 assign ledext1 = ~butext1;
 
-//added for clarity
+//added for clarity.
 endmodule
